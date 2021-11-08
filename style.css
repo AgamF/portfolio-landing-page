@@ -1,0 +1,55 @@
+html {
+	background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+	font-family: Arial Black, sans-serif;
+	display: grid;
+}
+
+#wrapper {
+	margin-top: -50;
+}
+
+.buffer {
+	height: 50px;
+}
+
+#header {
+	margin: auto;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	color: white;
+	font-size: 100px;
+}
+
+.container-fluid {
+	display: flex;
+	justify-content: center;
+
+}
+
+
+.button-array {
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	font-family: Arial Black, sans-serif;
+	border-radius: 30px;
+	margin: 10px;
+	height: 55px;
+	width: 120px;
+	background: linear-gradient(to bottom, green, yellow);
+	border: 3px solid green;
+}
+
+button:hover {
+	transform: scale(1.1);
+}

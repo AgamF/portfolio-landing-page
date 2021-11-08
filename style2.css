@@ -1,0 +1,24 @@
+body {
+	display: flex;
+	justify-content: center;
+	margin-top: 150px;
+}
+
+#wrapper {
+	background: linear-gradient(to bottom, lightblue, white);
+	padding: 50px;
+	border: 5px solid grey;
+}
+
+.form-control {
+	width: 250px
+}
+
+.buffer {
+	height: 230px;
+}
+
+.button {
+	height: 50px;
+	justify-content: center;
+}
